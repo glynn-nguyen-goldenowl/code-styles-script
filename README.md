@@ -37,14 +37,14 @@ ktlint{
 }
 ```
 
-### 3. In the project root fodler, create editorConfig file
+### 3. In the project root folder, create editorConfig file
 ```
 [*.{kt,kts}]
 ktlint_code_style = ktlint_official
 ktlint_ignore_back_ticked_identifier = true
 ```
 
-### 4. In the project root fodler, create pre-commit
+### 4. In the project root folder, create pre-commit
 ```
 #!/bin/bash
 
